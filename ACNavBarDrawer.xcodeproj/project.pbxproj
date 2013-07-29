@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50BFC3D617A63FB7002371F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D517A63FB7002371F9 /* UIKit.framework */; };
+		50BFC3D817A63FB7002371F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D717A63FB7002371F9 /* Foundation.framework */; };
+		50BFC3DA17A63FB7002371F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D917A63FB7002371F9 /* CoreGraphics.framework */; };
+		50BFC3E017A63FB7002371F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3DE17A63FB7002371F9 /* InfoPlist.strings */; };
+		50BFC3E217A63FB7002371F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC3E117A63FB7002371F9 /* main.m */; };
+		50BFC3E617A63FB7002371F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC3E517A63FB7002371F9 /* AppDelegate.m */; };
+		50BFC3E817A63FB7002371F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3E717A63FB7002371F9 /* Default.png */; };
+		50BFC3EA17A63FB7002371F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3E917A63FB7002371F9 /* Default@2x.png */; };
+		50BFC3EC17A63FB7002371F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */; };
+		50BFC3EF17A63FB7002371F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC3EE17A63FB7002371F9 /* ViewController.m */; };
+		50BFC3F217A63FB7002371F9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3F017A63FB7002371F9 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50BFC3D217A63FB7002371F9 /* ACNavBarDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNavBarDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BFC3D517A63FB7002371F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50BFC3D717A63FB7002371F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50BFC3D917A63FB7002371F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50BFC3DD17A63FB7002371F9 /* ACNavBarDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACNavBarDrawer-Info.plist"; sourceTree = "<group>"; };
+		50BFC3DF17A63FB7002371F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50BFC3E117A63FB7002371F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50BFC3E317A63FB7002371F9 /* ACNavBarDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACNavBarDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		50BFC3E417A63FB7002371F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50BFC3E517A63FB7002371F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50BFC3E717A63FB7002371F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50BFC3E917A63FB7002371F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50BFC3ED17A63FB7002371F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50BFC3EE17A63FB7002371F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50BFC3F117A63FB7002371F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50BFC3CF17A63FB7002371F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BFC3D617A63FB7002371F9 /* UIKit.framework in Frameworks */,
+				50BFC3D817A63FB7002371F9 /* Foundation.framework in Frameworks */,
+				50BFC3DA17A63FB7002371F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50BFC3C917A63FB7002371F9 = {
+			isa = PBXGroup;
+			children = (
+				50BFC3DB17A63FB7002371F9 /* ACNavBarDrawer */,
+				50BFC3D417A63FB7002371F9 /* Frameworks */,
+				50BFC3D317A63FB7002371F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50BFC3D317A63FB7002371F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3D217A63FB7002371F9 /* ACNavBarDrawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50BFC3D417A63FB7002371F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3D517A63FB7002371F9 /* UIKit.framework */,
+				50BFC3D717A63FB7002371F9 /* Foundation.framework */,
+				50BFC3D917A63FB7002371F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50BFC3DB17A63FB7002371F9 /* ACNavBarDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3E417A63FB7002371F9 /* AppDelegate.h */,
+				50BFC3E517A63FB7002371F9 /* AppDelegate.m */,
+				50BFC3ED17A63FB7002371F9 /* ViewController.h */,
+				50BFC3EE17A63FB7002371F9 /* ViewController.m */,
+				50BFC3F017A63FB7002371F9 /* ViewController.xib */,
+				50BFC3DC17A63FB7002371F9 /* Supporting Files */,
+			);
+			path = ACNavBarDrawer;
+			sourceTree = "<group>";
+		};
+		50BFC3DC17A63FB7002371F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3DD17A63FB7002371F9 /* ACNavBarDrawer-Info.plist */,
+				50BFC3DE17A63FB7002371F9 /* InfoPlist.strings */,
+				50BFC3E117A63FB7002371F9 /* main.m */,
+				50BFC3E317A63FB7002371F9 /* ACNavBarDrawer-Prefix.pch */,
+				50BFC3E717A63FB7002371F9 /* Default.png */,
+				50BFC3E917A63FB7002371F9 /* Default@2x.png */,
+				50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50BFC3D117A63FB7002371F9 /* ACNavBarDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50BFC3F517A63FB7002371F9 /* Build configuration list for PBXNativeTarget "ACNavBarDrawer" */;
+			buildPhases = (
+				50BFC3CE17A63FB7002371F9 /* Sources */,
+				50BFC3CF17A63FB7002371F9 /* Frameworks */,
+				50BFC3D017A63FB7002371F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACNavBarDrawer;
+			productName = ACNavBarDrawer;
+			productReference = 50BFC3D217A63FB7002371F9 /* ACNavBarDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50BFC3CA17A63FB7002371F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = albert;
+			};
+			buildConfigurationList = 50BFC3CD17A63FB7002371F9 /* Build configuration list for PBXProject "ACNavBarDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50BFC3C917A63FB7002371F9;
+			productRefGroup = 50BFC3D317A63FB7002371F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50BFC3D117A63FB7002371F9 /* ACNavBarDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50BFC3D017A63FB7002371F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BFC3E017A63FB7002371F9 /* InfoPlist.strings in Resources */,
+				50BFC3E817A63FB7002371F9 /* Default.png in Resources */,
+				50BFC3EA17A63FB7002371F9 /* Default@2x.png in Resources */,
+				50BFC3EC17A63FB7002371F9 /* Default-568h@2x.png in Resources */,
+				50BFC3F217A63FB7002371F9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50BFC3CE17A63FB7002371F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BFC3E217A63FB7002371F9 /* main.m in Sources */,
+				50BFC3E617A63FB7002371F9 /* AppDelegate.m in Sources */,
+				50BFC3EF17A63FB7002371F9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50BFC3DE17A63FB7002371F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BFC3DF17A63FB7002371F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50BFC3F017A63FB7002371F9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BFC3F117A63FB7002371F9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50BFC3F317A63FB7002371F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50BFC3F417A63FB7002371F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50BFC3F617A63FB7002371F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACNavBarDrawer/ACNavBarDrawer-Prefix.pch";
+				INFOPLIST_FILE = "ACNavBarDrawer/ACNavBarDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50BFC3F717A63FB7002371F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACNavBarDrawer/ACNavBarDrawer-Prefix.pch";
+				INFOPLIST_FILE = "ACNavBarDrawer/ACNavBarDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50BFC3CD17A63FB7002371F9 /* Build configuration list for PBXProject "ACNavBarDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BFC3F317A63FB7002371F9 /* Debug */,
+				50BFC3F417A63FB7002371F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50BFC3F517A63FB7002371F9 /* Build configuration list for PBXNativeTarget "ACNavBarDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BFC3F617A63FB7002371F9 /* Debug */,
+				50BFC3F717A63FB7002371F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50BFC3CA17A63FB7002371F9 /* Project object */;
+}
