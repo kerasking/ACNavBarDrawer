@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5015F87317A758CD0033613C /* TestNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015F87117A758CD0033613C /* TestNextViewController.m */; };
+		5015F87417A758CD0033613C /* TestNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5015F87217A758CD0033613C /* TestNextViewController.xib */; };
+		5015F8AA17A796590033613C /* drawer_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5015F8A817A796590033613C /* drawer_msg.png */; };
+		5015F8AB17A796590033613C /* drawer_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5015F8A917A796590033613C /* drawer_msg@2x.png */; };
+		5015F8AE17A79D360033613C /* nav_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5015F8AC17A79D360033613C /* nav_plus.png */; };
+		5015F8AF17A79D360033613C /* nav_plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5015F8AD17A79D360033613C /* nav_plus@2x.png */; };
 		50BFC3D617A63FB7002371F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D517A63FB7002371F9 /* UIKit.framework */; };
 		50BFC3D817A63FB7002371F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D717A63FB7002371F9 /* Foundation.framework */; };
 		50BFC3DA17A63FB7002371F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC3D917A63FB7002371F9 /* CoreGraphics.framework */; };
@@ -16,11 +22,27 @@
 		50BFC3E817A63FB7002371F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3E717A63FB7002371F9 /* Default.png */; };
 		50BFC3EA17A63FB7002371F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3E917A63FB7002371F9 /* Default@2x.png */; };
 		50BFC3EC17A63FB7002371F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */; };
-		50BFC3EF17A63FB7002371F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC3EE17A63FB7002371F9 /* ViewController.m */; };
-		50BFC3F217A63FB7002371F9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC3F017A63FB7002371F9 /* ViewController.xib */; };
+		50BFC40F17A642A5002371F9 /* ACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC3FC17A642A5002371F9 /* ACBaseViewController.m */; };
+		50BFC41017A642A5002371F9 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC40017A642A5002371F9 /* UIAlertView+Blocks.m */; };
+		50BFC41117A642A5002371F9 /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC40217A642A5002371F9 /* UINavigationBar+Background.m */; };
+		50BFC41317A642A5002371F9 /* nav_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC40B17A642A5002371F9 /* nav_back.png */; };
+		50BFC41417A642A5002371F9 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC40C17A642A5002371F9 /* nav_back@2x.png */; };
+		50BFC41517A642A5002371F9 /* nav_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC40D17A642A5002371F9 /* nav_bar.png */; };
+		50BFC41617A642A5002371F9 /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC40E17A642A5002371F9 /* nav_bar@2x.png */; };
+		50BFC41B17A6433F002371F9 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC41917A6433F002371F9 /* SampleViewController.m */; };
+		50BFC41C17A6433F002371F9 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BFC41A17A6433F002371F9 /* SampleViewController.xib */; };
+		50BFC47517A65C94002371F9 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BFC47417A65C94002371F9 /* ACNavBarDrawer.m */; };
+		50BFC47717A66746002371F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BFC47617A66746002371F9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5015F87017A758CD0033613C /* TestNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNextViewController.h; sourceTree = "<group>"; };
+		5015F87117A758CD0033613C /* TestNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNextViewController.m; sourceTree = "<group>"; };
+		5015F87217A758CD0033613C /* TestNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNextViewController.xib; sourceTree = "<group>"; };
+		5015F8A817A796590033613C /* drawer_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer_msg.png; sourceTree = "<group>"; };
+		5015F8A917A796590033613C /* drawer_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drawer_msg@2x.png"; sourceTree = "<group>"; };
+		5015F8AC17A79D360033613C /* nav_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_plus.png; sourceTree = "<group>"; };
+		5015F8AD17A79D360033613C /* nav_plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_plus@2x.png"; sourceTree = "<group>"; };
 		50BFC3D217A63FB7002371F9 /* ACNavBarDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNavBarDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BFC3D517A63FB7002371F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50BFC3D717A63FB7002371F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +56,25 @@
 		50BFC3E717A63FB7002371F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		50BFC3E917A63FB7002371F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		50BFC3ED17A63FB7002371F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50BFC3EE17A63FB7002371F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		50BFC3F117A63FB7002371F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		50BFC3F917A642A5002371F9 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		50BFC3FB17A642A5002371F9 /* ACBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACBaseViewController.h; sourceTree = "<group>"; };
+		50BFC3FC17A642A5002371F9 /* ACBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACBaseViewController.m; sourceTree = "<group>"; };
+		50BFC3FF17A642A5002371F9 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		50BFC40017A642A5002371F9 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		50BFC40117A642A5002371F9 /* UINavigationBar+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Background.h"; sourceTree = "<group>"; };
+		50BFC40217A642A5002371F9 /* UINavigationBar+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Background.m"; sourceTree = "<group>"; };
+		50BFC40817A642A5002371F9 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		50BFC40917A642A5002371F9 /* AppImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppImport.h; sourceTree = "<group>"; };
+		50BFC40B17A642A5002371F9 /* nav_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back.png; sourceTree = "<group>"; };
+		50BFC40C17A642A5002371F9 /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@2x.png"; sourceTree = "<group>"; };
+		50BFC40D17A642A5002371F9 /* nav_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bar.png; sourceTree = "<group>"; };
+		50BFC40E17A642A5002371F9 /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bar@2x.png"; sourceTree = "<group>"; };
+		50BFC41817A6433F002371F9 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		50BFC41917A6433F002371F9 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		50BFC41A17A6433F002371F9 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		50BFC47317A65C94002371F9 /* ACNavBarDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
+		50BFC47417A65C94002371F9 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
+		50BFC47617A66746002371F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BFC47717A66746002371F9 /* QuartzCore.framework in Frameworks */,
 				50BFC3D617A63FB7002371F9 /* UIKit.framework in Frameworks */,
 				50BFC3D817A63FB7002371F9 /* Foundation.framework in Frameworks */,
 				50BFC3DA17A63FB7002371F9 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +112,7 @@
 		50BFC3D417A63FB7002371F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50BFC47617A66746002371F9 /* QuartzCore.framework */,
 				50BFC3D517A63FB7002371F9 /* UIKit.framework */,
 				50BFC3D717A63FB7002371F9 /* Foundation.framework */,
 				50BFC3D917A63FB7002371F9 /* CoreGraphics.framework */,
@@ -83,11 +123,13 @@
 		50BFC3DB17A63FB7002371F9 /* ACNavBarDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				50BFC3F817A642A5002371F9 /* ACBox */,
+				50BFC40717A642A5002371F9 /* Constants */,
 				50BFC3E417A63FB7002371F9 /* AppDelegate.h */,
 				50BFC3E517A63FB7002371F9 /* AppDelegate.m */,
-				50BFC3ED17A63FB7002371F9 /* ViewController.h */,
-				50BFC3EE17A63FB7002371F9 /* ViewController.m */,
-				50BFC3F017A63FB7002371F9 /* ViewController.xib */,
+				50BFC47217A65C66002371F9 /* ACNavBarDrawerClasses */,
+				50BFC41717A6431A002371F9 /* SampleVC */,
+				50BFC40A17A642A5002371F9 /* imgs */,
 				50BFC3DC17A63FB7002371F9 /* Supporting Files */,
 			);
 			path = ACNavBarDrawer;
@@ -105,6 +147,99 @@
 				50BFC3EB17A63FB7002371F9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50BFC3F817A642A5002371F9 /* ACBox */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3F917A642A5002371F9 /* ACMacros.h */,
+				50BFC3FA17A642A5002371F9 /* BaseViewControllers */,
+				50BFC3FD17A642A5002371F9 /* Categories */,
+				50BFC40317A642A5002371F9 /* CustomUI */,
+			);
+			path = ACBox;
+			sourceTree = "<group>";
+		};
+		50BFC3FA17A642A5002371F9 /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3FB17A642A5002371F9 /* ACBaseViewController.h */,
+				50BFC3FC17A642A5002371F9 /* ACBaseViewController.m */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		50BFC3FD17A642A5002371F9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3FE17A642A5002371F9 /* UI */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		50BFC3FE17A642A5002371F9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC3FF17A642A5002371F9 /* UIAlertView+Blocks.h */,
+				50BFC40017A642A5002371F9 /* UIAlertView+Blocks.m */,
+				50BFC40117A642A5002371F9 /* UINavigationBar+Background.h */,
+				50BFC40217A642A5002371F9 /* UINavigationBar+Background.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		50BFC40317A642A5002371F9 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		50BFC40717A642A5002371F9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC40817A642A5002371F9 /* AppConstants.h */,
+				50BFC40917A642A5002371F9 /* AppImport.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		50BFC40A17A642A5002371F9 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				5015F8AC17A79D360033613C /* nav_plus.png */,
+				5015F8AD17A79D360033613C /* nav_plus@2x.png */,
+				5015F8A817A796590033613C /* drawer_msg.png */,
+				5015F8A917A796590033613C /* drawer_msg@2x.png */,
+				50BFC40B17A642A5002371F9 /* nav_back.png */,
+				50BFC40C17A642A5002371F9 /* nav_back@2x.png */,
+				50BFC40D17A642A5002371F9 /* nav_bar.png */,
+				50BFC40E17A642A5002371F9 /* nav_bar@2x.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		50BFC41717A6431A002371F9 /* SampleVC */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC41817A6433F002371F9 /* SampleViewController.h */,
+				50BFC41917A6433F002371F9 /* SampleViewController.m */,
+				50BFC41A17A6433F002371F9 /* SampleViewController.xib */,
+				5015F87017A758CD0033613C /* TestNextViewController.h */,
+				5015F87117A758CD0033613C /* TestNextViewController.m */,
+				5015F87217A758CD0033613C /* TestNextViewController.xib */,
+			);
+			name = SampleVC;
+			sourceTree = "<group>";
+		};
+		50BFC47217A65C66002371F9 /* ACNavBarDrawerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				50BFC47317A65C94002371F9 /* ACNavBarDrawer.h */,
+				50BFC47417A65C94002371F9 /* ACNavBarDrawer.m */,
+			);
+			name = ACNavBarDrawerClasses;
+			path = ACBox/CustomUI/ACNavBarDrawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +297,16 @@
 				50BFC3E817A63FB7002371F9 /* Default.png in Resources */,
 				50BFC3EA17A63FB7002371F9 /* Default@2x.png in Resources */,
 				50BFC3EC17A63FB7002371F9 /* Default-568h@2x.png in Resources */,
-				50BFC3F217A63FB7002371F9 /* ViewController.xib in Resources */,
+				50BFC41317A642A5002371F9 /* nav_back.png in Resources */,
+				50BFC41417A642A5002371F9 /* nav_back@2x.png in Resources */,
+				50BFC41517A642A5002371F9 /* nav_bar.png in Resources */,
+				50BFC41617A642A5002371F9 /* nav_bar@2x.png in Resources */,
+				50BFC41C17A6433F002371F9 /* SampleViewController.xib in Resources */,
+				5015F87417A758CD0033613C /* TestNextViewController.xib in Resources */,
+				5015F8AA17A796590033613C /* drawer_msg.png in Resources */,
+				5015F8AB17A796590033613C /* drawer_msg@2x.png in Resources */,
+				5015F8AE17A79D360033613C /* nav_plus.png in Resources */,
+				5015F8AF17A79D360033613C /* nav_plus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +319,12 @@
 			files = (
 				50BFC3E217A63FB7002371F9 /* main.m in Sources */,
 				50BFC3E617A63FB7002371F9 /* AppDelegate.m in Sources */,
-				50BFC3EF17A63FB7002371F9 /* ViewController.m in Sources */,
+				50BFC40F17A642A5002371F9 /* ACBaseViewController.m in Sources */,
+				50BFC41017A642A5002371F9 /* UIAlertView+Blocks.m in Sources */,
+				50BFC41117A642A5002371F9 /* UINavigationBar+Background.m in Sources */,
+				50BFC41B17A6433F002371F9 /* SampleViewController.m in Sources */,
+				50BFC47517A65C94002371F9 /* ACNavBarDrawer.m in Sources */,
+				5015F87317A758CD0033613C /* TestNextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +337,6 @@
 				50BFC3DF17A63FB7002371F9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		50BFC3F017A63FB7002371F9 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50BFC3F117A63FB7002371F9 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -226,7 +367,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -250,7 +391,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -263,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACNavBarDrawer/ACNavBarDrawer-Prefix.pch";
 				INFOPLIST_FILE = "ACNavBarDrawer/ACNavBarDrawer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACNavBarDrawer/ACNavBarDrawer-Prefix.pch";
 				INFOPLIST_FILE = "ACNavBarDrawer/ACNavBarDrawer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +441,7 @@
 				50BFC3F717A63FB7002371F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SampleViewController.h
 //  ACNavBarDrawer
 //
 //  Created by albert on 13-7-29.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SampleViewController : ACBaseViewController
+
+- (IBAction)testNextVC:(id)sender;
 
 @end

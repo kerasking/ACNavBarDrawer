@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "SampleViewController.h"
 
 @implementation AppDelegate
 
@@ -16,8 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    SampleViewController *sampleVC =
+    [[SampleViewController alloc] initWithNibName:@"SampleViewController" bundle:nil];
+    
+    sampleVC.doNotNeedBackButton = YES;
+    
+    self.navVC = [[UINavigationController alloc] initWithRootViewController:sampleVC];
+    
+    self.window.rootViewController = self.navVC;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
