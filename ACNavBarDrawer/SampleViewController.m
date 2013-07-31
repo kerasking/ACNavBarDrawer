@@ -17,9 +17,6 @@
     /** 导航栏 按钮 加号 图片 */
     UIImageView *_plusIV;
     
-    /** 是否已打开抽屉 */
-    BOOL _isOpen;
-    
     /** 抽屉视图 */
     ACNavBarDrawer *_drawerView;
 }
@@ -196,7 +193,7 @@
     NSArray *item_03 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮3", nil];
     NSArray *item_04 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮4", nil];
     
-    // 最好是 2-5 个按钮，1个很2，5个以上很丑
+    // 可根据数组大小自适应，最好是 2-5 个按钮，1个很2，5个以上很丑
     NSArray *allItems = [NSArray arrayWithObjects:item_01,item_02,item_03, item_04, nil];
     
     _drawerView = [[ACNavBarDrawer alloc] initWithView:self.view andItemInfoArray:allItems];
@@ -207,7 +204,6 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     // 消失时 关闭抽屉
-    _isOpen = NO;
     [_drawerView closeNavBarDrawer];
     
     // 旋回加号图片
