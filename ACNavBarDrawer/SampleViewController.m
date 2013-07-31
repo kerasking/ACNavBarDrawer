@@ -98,7 +98,15 @@
             
         case 2:
         {
+            // Creat VC
+            TestNextViewController *nextVC = [[TestNextViewController alloc] init];
             
+            // Modal
+            nextVC.loadType = BVLT_PresentType;
+            UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:nextVC];
+            nc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+            
+            [self presentViewController:nc animated:YES completion:nil];
         }
             break;
             
@@ -190,7 +198,7 @@
     // 就不建数据对象了，第一个为图片名、第二个为按钮名
     NSArray *item_01 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮1", nil];
     NSArray *item_02 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮2", nil];
-    NSArray *item_03 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮3", nil];
+    NSArray *item_03 = [NSArray arrayWithObjects:@"drawer_msg", @"视图切换", nil];
     NSArray *item_04 = [NSArray arrayWithObjects:@"drawer_msg", @"按钮4", nil];
     
     // 可根据数组大小自适应，最好是 2-5 个按钮，1个很2，5个以上很丑
